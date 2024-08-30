@@ -1,0 +1,65 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+    margin: 0;
+    font-family: monospace;
+}
+
+.tamagotchiContainer {
+    width: 400px;
+    height: 500px;
+    background-color: #38ff88;
+    border: 10px solid black;
+    border-radius: 25%;
+    padding: 20px;
+    box-shadow: 0 8px 16px black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.tamagotchiTitle {
+    margin: 0;
+    font-size: 30px;
+    color: black;
+    margin-top: 50px;
+}
+
+.tamagotchiScreen {
+    width: 100%;
+    height: 250px;
+    background-color: white;
+    border: 5px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: black;
+    text-align: center;
+}
+
+.tamagotchiButtons button {
+    width: 80px;
+    height: 40px;
+    margin: 10px;
+    font-size: 15px;
+    background-color: #fb4b94;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.tamagotchiButtons button:hover {
+    background-color: rgb(255, 0, 0);
+}
+
+.tamagotchiButtons {
+    display: flex;
+    justify-content: center;
+}
